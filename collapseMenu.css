@@ -57,7 +57,7 @@
          }
          #pizze-rosse {
             color: #fff;
-            background-image: url(/Images/marble-rosso.jfif);
+            background-image: url(img/marble-rosso.jfif);
             box-shadow: 10px 10px 50px blue;
             /*background-color: #1E88E5;*/
 
@@ -65,7 +65,7 @@
 
       #pizze-bianche {
          color: black;
-         background-image: url(/Images/marble3.png);
+         background-image: url(img/marble3.png);
          box-shadow: 10px 10px 50px black;         
       }
       #pizze-bianche h4{
@@ -73,7 +73,7 @@
          font-weight: 700;
       }
          #tavola-calda {
-         background-image: url(/Images/bar-tavola-calda-tortora.jpg);        
+         background-image: url(img/tavola-calda.jpg);        
          box-shadow: 10px 10px 50px black;
          }
          #tavola-calda,  #tavola-calda h4 {
@@ -82,7 +82,7 @@
          }
          #kebab {
             color: #fff;
-         background-image: url(/Images/kebab1.jpg);
+         background-image: url(img/kebab1.jpg);
          box-shadow: 10px 10px 50px black;
          }
          #kebab, #kebab h4 {
@@ -96,12 +96,12 @@
 
          #calzoni, #fritti,  #focaccia  {
             color: #fff;
-            background-image: url(/Images/marble1.jpg);
+            background-image: url(img/marble1.jpg);
             box-shadow: 10px 10px 50px black;
          }
          #bevande {
             color: #fff;
-            background-image: url(/Images/marble2.jpg);
+            background-image: url(img/marble2.jpg);
             box-shadow: 10px 10px 50px blue;
          }
          .offerte li, .offerte p{
@@ -113,7 +113,7 @@
          .offerte{
             width: 60%;
             height: fit-content;
-            background-image: url(/Images/marble1.jpg);
+            background-image: url(img/marble1.jpg);
             align-content: center;
             text-align: center;
             margin: auto;
