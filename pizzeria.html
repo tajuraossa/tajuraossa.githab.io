@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <!-- Theme Made By www.w3schools.com -->
+      <title>The best Pizza Battistini roma</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+      <!--
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+   -->
+      
+      <link rel="stylesheet" href="/projects/completeProj.css">
+      <link rel="stylesheet" href="/projects/collapseMenu.css">
+      <link rel="stylesheet" href="/projects/animatedText.css">
+
+   </head>
+<body>
+   
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+   <header>
+      <br>
+      <nav class="navbar navbar-default navbar-fixed-top">
+<!-- nav bar toggle format-->
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <img src="/img/Logo.png" alt="">
+               <br><br>             
+            </div>
+<!-- nav bar menu-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#chi-siamo">chi siamo</a></li>  
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#offerte">Offerte del Giorno</a></li>
+                  <li><a href="#ordina">Ordina</a></li>
+                  <li class="dropdown"><a href="#ingridienti">Ingridienti</a></li>                 
+                  <li class="dropdown"><a href="#contatti">Contatti</a></li>
+               </ul>
+            </div>
+
+         </div>
+      </nav>
+      <div class="jumbotron text-center">
+         <section id="specile">
+            <div class="content">
+               <h2>Pizzeria Liege</h2>
+               <h2>Pizzeria Liege</h2>
+            </div>
+         </section>
+      </div>
+      <br>
+   </header>
+<h1>BenVenuti!</h1>
+   <main>
+<!-- Container (About Section) -->
+<div id="chi-siamo" class="container-fluid">
+   <br>
+   <div class="row" id="video">
+      <div class="video">
+         <video autoplay muted loop id="myVideo">
+            <source src="Pizza - Video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+         </video>
+         <br><br>
+         <p indent>
+            Nel 2020 abbiamo aperto nel quartiere di Battisttini vicinissimo alla metro A, con l’intenzione di
+            tramandare
+            l’antica arte bianca appresa dai maestri che hanno fatto la storia della pizza a Roma. Oggi siamo
+            consapevoli di
+            essere ormai una delle principali realtà tra le pizzerie con forno a legna.</p> <br>
+         <p indent>si po provare pizzerie in zona, ma niente, nessuna arriva a questi livelli. La pizza è semplicemente
+            fantastica e sempre con
+            la qualità sorprendente di quanto sia buona, anche i fritti, i calzoni, kebab sono ottimi.</p>
+      </div>
+   </div>
+</div>
+<h1>Venite e Gustatela ! Aspetiamo a braccia aperte</h1>
+<!-- crausel container-->
+      <section class="crausel">
+ 
+         <div class="container" id="crausel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+               </ol>
+         
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner" role="listbox">
+         
+                  <div class="item active">
+                     <img src="/img/cammino.jpg" alt="camino" width="460" height="345">
+                     <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                     </div>
+                  </div>
+         
+                  <div class="item">
+                     <img src="/img/pizza2.jpg" alt="Pizza capricciosa" width="460" height="345">
+                     <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                     </div>
+                  </div>
+         
+                  <div class="item">
+                     <img src="/img/pizza5.jpg" alt="pizza margharita" width="460" height="345">
+                     <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                     </div>
+                  </div>
+         
+                  <div class="item">
+                     <img src="/img/pizza3.jpg" alt="pizza Napoli" width="460" height="345">
+                     <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                     </div>
+                  </div>
+         
+               </div>
+         
+               <!-- Left and right controls -->
+               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </section>
+      
+
+<!-- menu container-->
+   <div id="menu" class="container-fluid text-center"> 
+      <div class="jumbotron1 text-center">
+         <section id="specile">
+            <div class="content">
+               <h2>Menu</h2>
+               <h2>Menu</h2>
+            </div>
+         </section>
+      </div>
+      
+      <hr><br>
+      <div class="container">   
+         <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#pizze-rosse">Pizze Rosse</a>
+                  </h4>
+               </div>
+
+               <div id="pizze-rosse" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Rossa..........<span class="glyphicon glyphicon-euro"></span> 4.50</li>
+                        <li>Funghi..........<span class="glyphicon glyphicon-euro"></span> 6.50</li>
+                        <li>Margharita..........<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                        <li>Marinara..........<span class="glyphicon glyphicon-euro"></span> 5.50</li>
+                        <li>Capricciosa..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Napoli..........<span class="glyphicon glyphicon-euro"></span> 6.50</li>
+                        <li>Diavola..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Bufala e Pachino..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Mellanzana Parmigiana..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Tonno e Cipola..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Boscaiola..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Ortolana..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Quattro Stagioni..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Parmigiana..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Margherita e Salsiccia..........<span class="glyphicon glyphicon-euro"></span> 6.50</li>
+                        <li>Gamberetti..........<span class="glyphicon glyphicon-euro"></span> 8.50</li>
+                        <li>Bufalina..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#pizze-bianche">Pizze Bianche</a>
+                  </h4>
+               </div>
+               <div id="pizze-bianche" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Bufala e Spechi..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Proval e Spechi..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Patate e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                        <li>Zucchine e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                        <li>Funghi e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                        <li>Crostino..........<span class="glyphicon glyphicon-euro"></span> 6.50</li>
+                        <li>Boscaiola..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Quattro Formaggi..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Broccoli e Salsiccia..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Fiori e Alice..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Pizza Kebab..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Bufala e Pachino..........<span class="glyphicon glyphicon-euro"></span>7.00</li>
+                        <li>Tonno e Cipolla..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Cacio e Pepe..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Patate Wrustel e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Porcini e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                        <li>Ortolana..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Ciccoria e Salsiccia..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#tavola-calda">Tavola Calda</a>
+                  </h4>
+               </div>
+               <div id="tavola-calda" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Lasagna..................<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Parmigiana..................<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Verdure Grigliate..................<span class="glyphicon glyphicon-euro"></span> 4.00</li>
+                        <li>Pasta all'arabiata..................<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Pasta all'amatriciana..................<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Polo arosto con patate..................<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#kebab">Kebab</a>
+                  </h4>
+               </div>
+               <div id="kebab" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Piadina con Kebab..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Pannino con Kebab..........<span class="glyphicon glyphicon-euro"></span> 5.50</li>
+                        <li>Piato con Kebab..........<span class="glyphicon glyphicon-euro"></span> 7.50</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#focaccia">Focaccia</a>
+                  </h4>
+               </div>
+               <div id="focaccia" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Semplice..........<span class="glyphicon glyphicon-euro"></span> 3.50</li>
+                        <li>Prociutto crudo e Bufala..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Bresaola Rucola e Grana..........<span class="glyphicon glyphicon-euro"></span> 9.00</li>
+                        <li>Verdure Grigliate..........<span class="glyphicon glyphicon-euro"></span> 7.00</li>
+                        <li>Nutela..........<span class="glyphicon glyphicon-euro"></span> 6.00</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#calzoni">Calzoni</a>
+                  </h4>
+               </div>
+               <div id="calzoni" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <ul>
+                        <li>Cotto e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Kebab e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Pomodoro e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Funghi, Salsiccia e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Verdure e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Crudo e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Speck e Mozzarella..........<span class="glyphicon glyphicon-euro"></span> 5.00</li>
+                        <li>Hotdog..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#fritti">Fritti</a>
+               </h4>
+            </div>
+            <div id="fritti" class="panel-collapse collapse in">
+               <div class="panel-body">
+                  <ul>
+                     <li>Suppli..........<span class="glyphicon glyphicon-euro"></span> 1.20</li>
+                     <li>Fiori di Zucca..........<span class="glyphicon glyphicon-euro"></span> 1.20</li>
+                     <li>Filetto di Baccalà..........<span class="glyphicon glyphicon-euro"></span> 2.00</li>
+                     <li>Mozzarelline (6pz)..........<span class="glyphicon glyphicon-euro"></span> 2.50</li>
+                     <li>Crocchetta di Patate..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Anelli di Cipolla (6pz)..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Olive Ascolane (6pz)..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Patatine fritte..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#bevande">Bevande</a>
+               </h4>
+            </div>
+            <div id="bevande" class="panel-collapse collapse in">
+               <div class="panel-body">>
+                  <ul>
+                     <li>Heinken 66cl..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Peroni 66cl..........<span class="glyphicon glyphicon-euro"></span> 2.50</li>
+                     <li>Heinken/Peroni 33cl..........<span class="glyphicon glyphicon-euro"></span> 2.00</li>
+                     <li>Ceres/Tennent's 33cl..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Coca cola/ Fanta latina..........<span class="glyphicon glyphicon-euro"></span> 1.80</li>
+                     <li>Coca cola/ Fanta 50cl..........<span class="glyphicon glyphicon-euro"></span> 1.50</li>
+                     <li>Coca cola/Fanta 1.5l..........<span class="glyphicon glyphicon-euro"></span> 3.00</li>
+                     <li>Coca cola zero 50cl..........<span class="glyphicon glyphicon-euro"></span> 2.50</li>
+                     <li>Aqua 50cl..........<span class="glyphicon glyphicon-euro"></span> 1.00</li>
+                     <li>Aqua 1.5l..........<span class="glyphicon glyphicon-euro"></span> 4.50</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div> 
+
+
+<div id="offerte">
+   <!-- title special-->
+   <div class="jumbotron1 text-center">
+      <section id="specile">
+         <div class="content">
+            <h2>Offerte</h2>
+            <h2>Offerte</h2>
+         </div>
+      </section>
+   </div>
+   <br><br>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+   <!-- Indicators -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+   </ol>
+
+   <!-- Wrapper for slides -->
+    <hr>
+   <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      <div class="offerte">
+         <img src="/img/margherita.jpg" alt="pizza margherita">
+         
+         <p>Ogni 4 pizze tonde</p>
+         <p>Una Margharita in omaggio</p>
+         <h4>Margherite in Omaggio</h4>
+      </div>
+      </div>
+      <div class="item">
+            <div class="offerte">
+               <img src="/img/oferte2.png" alt="pizza tonda + latina + supli">
+               
+               <ul><br>
+                  <li>una pizza tonda a scelta</li>
+                  <li>più un Supli</li>
+                  <li>più una Latina</li>
+               </ul>
+               <h4>Menu Singolo <span class="glyphicon glyphicon-euro"></span> 9.00 </h4>
+            </div>
+      </div>
+      <div class="item">
+      <div class="offerte">
+         <img src="/img/offerte3.png" alt="pizza tonda + latina + supli + birra">
+         
+         <ul><br>
+            <li>quatro pizza tonda a scelta</li>
+            <li>più quatro Supli</li>
+            <li>più una Coca cola 1.5l</li>
+            <li>più una Birra 66cl</li>
+         </ul>
+         <h4>Menu Famiglie <span class="glyphicon glyphicon-euro"></span> 30.00 </h4>
+      </div>
+      </div>
+      <div class="item">
+      <div class="offerte">
+         <img src="/img/offerte4.jpg" alt="teglie due gusti">
+         
+         <p>Due Gusti</p>
+         <p>per Qauttro Persone</p>
+         <h4>Menu Teglia <span class="glyphicon glyphicon-euro"></span> 18.00 </h4>
+      </div>
+      </div>
+      <div class="item">
+      <div class="offerte">
+         <img src="/img/offerte5.png" alt="kebab +lattina">
+         
+         <ul><br>
+            <li>una Piadina Kebab</li>
+            <li>più patatine fritte</li>
+            <li>più una Coca/Fanta Latina</li>
+         </ul>
+         <h4>Menu Kebab <span class="glyphicon glyphicon-euro"></span> 8.50 </h4>
+      </div>
+      </div>
+   </div>
+   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+   </a>
+</div>
+</div>
+
+
+<!-- title special-->
+<div class="jumbotron1 text-center">
+   <section id="specile">
+      <div class="content">
+         <h2>Ordina</h2>
+         <h2>Ordina</h2>
+      </div>
+   </section>
+</div>
+<br><br>
+<!-- ordina-->
+<h1>per Ordinare chima </h1>
+<h1> il numero cell: 391 361 6639 o</h1>
+<h1> il numero fisso: 06 86758376</h1>
+ <div id="ordina"><br><br>
+   <div class="rosse"> 
+<!-- <input type="checkbox" id="myCheck" name="ordini">-->
+   <label for ="pizze-Rosse">Pizze Rosse</label><br>
+   <select name="pizze" id="pizze-Rosse">
+      <option value="">fai la tua scelta</option>
+      <option value="rossa,4.50">Rossa</option>
+      <option value="funghi,6.50">Funghi</option>
+      <option value="margharita,6.00">Margharita</option>
+      <option value="marinara,5.50">Marinara</option>
+      <option value="capricciosa,7.50">Capricciosa</option>
+      <option value="Napoli,6.50">Napoli</option>
+      <option value="Diavola,7.00">Diavola</option>
+      <option value="Bufala e Pachino,7.50">Bufala e Pachino</option>
+      <option value="Mellanzana Parmigiana,7.50">Mellanzana Parmigiana</option>
+      <option value="Tonno e Cipola,7.50">Tonno e Cipola</option>
+      <option value="Boscaiola,7.50">Boscaiola</option>
+      <option value="Ortolana,7.00">Ortolana</option>
+      <option value="Quattro Stagioni,7.00">Quattro Stagioni</option>
+      <option value="Parmigiana,7.500">Parmigiana</option>
+      <option value="Margherita e Salsiccia,6.50">Margherita e Salsiccia</option>
+      <option value="Gamberetti,8.50">Gamberetti</option>
+      <option value="Bufalina,7.00">Bufalina</option>
+      
+   </select>
+<!--      <input type="number" id="pezzi" placeholder="pezzi">-->
+   </div>
+      <div class="bianche">
+<!--      <input type="checkbox" id="myCheck" name="ordini">-->
+         <label for="pizze-Bianche">Pizze Bianche</label><br>
+         <select name="pizze" id="pizze-Bianche">
+            <option value="">fai la tua scelta</option>
+            <option value="bufala-Spechi,7.50">Bufala e Spechi</option>
+            <option value="Proval-Spechi,7.50">Proval e Spechi</option>
+            <option value="Patate-mozzarella,6.00">Patate e Mozzarella</option>
+            <option value="Zucchine-mozzarella,6.00">Zucchine e Mozzarella</option>
+            <option value="Crostino,6.50">Crostino</option>
+            <option value="Boscaiola,7.00">Boscaiola</option>
+            <option value="Quattro Formaggi,7.00">Quattro Formaggi</option>
+            <option value="Broccoli e Salsiccia,6.00">Broccoli e Salsiccia</option>
+            <option value="Fiori e Alice,7.00">Fiori e Alice</option>
+            <option value="Pizza Kebab,7.00">Pizza Kebab</option>
+            <option value="Bufala e Pachino,7.00">Bufala e Pachino</option>
+            <option value="Tonno e Cipolla,7.00">FTonno e Cipolla</option>
+            <option value="Cacio e Pepe,7.00">Cacio e Pepe</option>
+            <option value="Patate Wrustel e Mozzarella,7.00">Patate Wrustel e Mozzarella</option>
+            <option value="Porcini e Mozzarella,7.00">Porcini e Mozzarellaa</option>
+            <option value="Ortolana,7.00">Ortolana</option>
+            <option value="Ciccoria e Salsiccia,7.00">Ciccoria e Salsiccia</option>
+         </select>
+
+<!--      <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+      <div class="tavola-calda">
+<!--       <input type="checkbox" id="myCheck" name="ordini">-->
+         <label for="Tavola-calda">Tavola Calda</label><br>
+
+         <select name="pizze" id="Tavola-calda">
+            <option value="">fai la tua scelta</option>
+            <option value="lasagna,5.00">Lasagna</option>
+            <option value="parmigiana,5.00">Parmigiana</option>
+            <option value="verdure-grigliate,4.00">Verdure Grigliate</option>
+            <option value="Pasta-arabiata,5.00">Pasta all'arabiata</option>
+            <option value="Pasta-amatriciana,5.00">Pasta all'amatriciana</option>
+            <option value="Polo-arosto-patate,6.00">Polo arosto con patate</option>
+         </select>
+
+<!--       <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+      <div class="Kebab">
+<!--       <input type="checkbox" id="myCheck" name="ordini">-->
+         <label for="Kebab">Kebab</label><br>
+         <select name="Kebab" id="Kebab">
+            <option value="">fai la tua scelta</option>
+            <option value="piadina,5.00">Piadina con Kebab</option>
+            <option value="pannino,5.50">Pannino con Kebab</option>  
+            <option value="Piato con Kebab,7.0">Piato con Kebab</option>
+<!--       <input type="number" id="pezzi" placeholder="pezzi">-->
+         </select>
+      </div>
+
+
+
+      <div class="calzoni">
+<!--       <input type="checkbox" id="myCheck" name="ordini"> -->
+         <label for="calzoni">Calzoni</label><br>
+         <select name="calzoni" id="Calzoni">
+            <option value="">fai la tua scelta</option>
+            <option value="Cotto e Mozzarella,5.00">Cotto e Mozzarella</option>
+            <option value="Kebab e Mozzarella,5.00">Kebab e Mozzarella</option>
+            <option value="Pomodoro e Mozzarella,5.00">Pomodoro e Mozzarella</option>
+            <option value="Funghi, Salsiccia e Mozzarella,5.00">Funghi, Salsiccia e Mozzarella</option>
+            <option value="Verdure e Mozzarella,5.00">Verdure e Mozzarella</option>
+            <option value="Crudo e Mozzarella,5.00">Crudo e Mozzarella</option>
+         </select>
+
+
+<!--      <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+     <div class="Focaccia">
+<!--           <input type="checkbox" id="myCheck" name="ordini">-->
+        <label for="focaccia">Focaccia</label><br>
+
+         <select name="focaccia" id="Focaccia">
+            <option value="">fai la tua scelta</option>
+            <option value="Semplice,3.50">PSemplice</option>
+            <option value="Prociutto crudo e Bufala,7.00">Prociutto crudo e Bufala</option>
+            <option value="Bresaola Rucola e Grana,9.00">Bresaola Rucola e Grana</option>
+            <option value="Verdure Grigliate,7.00">Verdure Grigliate</option>
+            <option value="Nutela,6.00">Nutela</option>
+         </select>
+  
+<!--       <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+      <div class="fritti">
+<!--          <input type="checkbox" id="myCheck" name="ordini">-->
+         <label for="fritti">Fritti</label><br>
+         <select name="fritti" id="Fritti">
+            <option value="">fai la tua scelta</option>
+            <option value="Suppli,1.20">Suppli</option>
+            <option value="Fiori di Zucca,1.20">Fiori di Zucca</option>
+            <option value="Filetto di Baccalà,2.00">Filetto di Baccalà</option>
+            <option value="Mozzarelline (6pz),2.50">Mozzarelline (6pz)</option>
+            <option value="Crocchetta di Patate,3.00">Crocchetta di Patate</option>
+            <option value="Anelli di Cipolla (6pz),3.00">Anelli di Cipolla (6pz)</option>
+            <option value="Olive Ascolane (6pz),3.00">Olive Ascolane (6pz)</option>
+            <option value="Patatine fritte,3.00">Patatine fritte</option>
+         </select>
+
+<!--       <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+      <div class="Bevande">
+<!--          <input type="checkbox" id="myCheck" name="ordini">-->
+         <label for="Bevande">Bevande</label><br>
+         <select name="bevande" id="Bevande">
+            <option value="">fai la tua scelta</option>
+            <option value="Heinken 66cl,3.00">Heinken 66cl</option>
+            <option value="Peroni 66cl,3.00">Peroni 66cl</option>
+            <option value="Ceres/Tennent's 33cl,2.50">Ceres/Tennent's 33cl</option>
+            <option value="Coca cola/ Fanta latina,1.80">Coca cola/ Fanta latina</option>
+            <option value="Coca cola/ Fanta 50cl,1.50">Coca cola/ Fanta 50cl</option>
+            <option value="Coca cola/Fanta 1.5l,3.00">Coca cola/Fanta 1.5l</option>
+            <option value="Coca cola zero 50cl,2.50">Coca cola zero 50cl</option>
+            <option value="Aqua 50cl,1.00">Aqua 50cl</option>
+            <option value="Aqua 1.5l,3.50">Aqua 1.5l</option>
+         </select>
+      
+<!--      <input type="number" id="pezzi" placeholder="pezzi">-->
+      </div>
+         <div class="Offerte">
+<!--      <input type="checkbox" id="myCheck" name="ordini"> -->
+           <label for="Offert">Offerte</label><br>
+            <select name="Offert" id="Offert">
+               <option value="">fai la tua scelta</option>
+               <option value="omaggio,">Omagio Margharita</option>
+               <option value="singola,9.00">Menu Singola</option>
+               <option value="familglie,30.00">Menu Famiglie</option>
+               <option value="teglie,18.00">Menu Teglie</option>
+               <option value="kebab,8.50">Menu Kebab</option>
+            </select>
+
+<!--      <input type="number" id="pezzi" placeholder="pezzi">-->
+            </div>
+</div>
+<br><br>
+
+
+ <!-- Container galleria -->
+   <div id="ingridienti" class="container-fluid text-center bg-grey">
+      <div class="jumbotron2 text-center">
+         <section id="specile">
+            <div class="content">
+               <h2>Ingridienti</h2>
+               <h2>Ingridienti</h2>
+            </div>
+         </section>
+      </div>
+<br><br>
+      <h2>Usiamo</h2><br>
+      <h4>ingridenti freschi</h4>
+      <div class="row text-center slideanim">
+         <div class="col-sm-4">
+            <div class="thumbnail">
+               <img src="/img/mozzarella-cheese.JPG" alt="Mozzarella cheese" width="400" height="300">
+               <p><strong>Mozzarella fresca</strong></p>
+               <p></p>
+            </div>
+         </div>
+         <div class="col-sm-4">
+            <div class="thumbnail">
+               <img src="/img/mozzarella gratuggiata.jpeg" alt="Mozzarella gratuggiati" width="400" height="300">
+               <p><strong>Gratuggiati</strong></p>
+               <p></p>
+            </div>
+         </div>
+         <div class="col-sm-4">
+            <div class="thumbnail">
+               <img src="/img/pomodori freschi.jpg" alt="pomodori freschi" width="400" height="300">
+               <p><strong>pomodori freschi</strong></p>
+               <p></p>
+            </div>
+         </div>
+      </div>
+   </div>
+      <br>
+
+      <!--Container (Contact Section) -->
+   <section>
+   <div id="contatti" class="container-fluid bg-grey">
+   <div class="jumbotron2 text-center">
+      <section id="specile">
+         <div class="content">
+            <h2>Pizzeria Liege</h2>
+            <h2>Pizzeria Liege</h2>
+         </div>
+      </section>
+      <br><br>
+   </div>
+      <h2 class="text-center">CONTATTI</h2>
+      <div class="row">
+         <div class="col-sm-5">
+            <p >Contattati ci</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Via Montei di Primavalle 266/268, Roma</p>
+            <p><span class="glyphicon glyphicon-phone"></span>  06 86758376</p>
+            <p><span class="glyphicon glyphicon-phone"></span> 391 361 6639</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> ibrahimtash88@gmail.com</p>
+         </div>
+         <div class="col-sm-7 slideanim">
+            <div class="row">
+               <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+               </div>
+               <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+               </div>
+               <div class="col-sm-6 form-group">
+                  <input class="form-control" id="telefon" name="telefin" placeholder="telefon" type="telefon" required>
+               </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Commenti"
+               rows="5"></textarea><br>
+            <div class="row">
+               <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit" onclick="sendMail">Invia</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </section>  
+</main>
+<section>
+      <!-- Image of location/map -->
+   <p style="padding-left: 100px; padding-top: 100px; color: black;"> <i>web constructed by Tajura Getachew OSSA</i></p>
+      <footer class="container-fluid text-center">
+         <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+         </a>
+         
+      </footer>
+</section>
+   <script>
+      $(document).ready(function () {
+         // Add smooth scrolling to all links in navbar + footer link
+         $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+               // Prevent default anchor click behavior
+               event.preventDefault();
+
+               // Store hash
+               var hash = this.hash;
+
+               // Using jQuery's animate() method to add smooth page scroll
+               // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+               $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+               }, 1000, function () {
+
+                  // Add hash (#) to URL when done scrolling (default click behavior)
+                  window.location.hash = hash;
+               });
+            } // End if
+         });
+
+         $(window).scroll(function () {
+            $(".slideanim").each(function () {
+               var pos = $(this).offset().top;
+
+               var winTop = $(window).scrollTop();
+               if (pos < winTop + 900) {
+                  $(this).addClass("slide");
+               }
+            });
+         });
+      })
+ </script>
+   </body>
+
+</html>

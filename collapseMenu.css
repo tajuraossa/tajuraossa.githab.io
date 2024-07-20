@@ -1,0 +1,142 @@
+         ul.nav-pills {
+ 
+            position: relative;
+         }
+         h1{
+            font-family: "Roboto", sans-serif;
+            font-size: 50px;
+            color: hsl(0, 59%, 20%);
+            text-align: center;
+            font-weight: bolder;
+         }
+         h4{
+            color: bisque;
+            font-size: 18px;
+            font-weight: 700;
+         }
+         .video{
+            background-color: hsl(0, 59%, 10%);
+            overflow-y: hidden;
+            padding-right: 20px;
+            padding-left: 20px;
+         }
+         #myVideo{
+            float: left;
+            height: 400px;
+            padding-right: 100px;
+            padding-left: 120px;
+            opacity: 0.4;
+            
+
+         }
+         #pizze-rosse,
+         #pizze-bianche,
+         #kebab,
+         #focaccia,
+         #calzoni,
+         #fritti,
+         #bevande {
+            height:fit-content;
+            font-size: 16px;
+            color: beige;
+         }
+         .panel-body li{
+            list-style: none ;
+         }
+         span{
+            font-size: 12px;
+         }
+         div.col-sm-9 div {
+            height: fit-content;
+            font-size: 16px;
+            color: beige;
+         }
+         #pezzi{
+            width: 60px;
+            border-radius:25%;
+         }
+         #pizze-rosse {
+            color: #fff;
+            background-image: url(/Images/marble-rosso.jfif);
+            box-shadow: 10px 10px 50px blue;
+            /*background-color: #1E88E5;*/
+
+         }
+
+      #pizze-bianche {
+         color: black;
+         background-image: url(/Images/marble3.png);
+         box-shadow: 10px 10px 50px black;         
+      }
+      #pizze-bianche h4{
+         color: black;
+         font-weight: 700;
+      }
+         #tavola-calda {
+         background-image: url(/Images/bar-tavola-calda-tortora.jpg);        
+         box-shadow: 10px 10px 50px black;
+         }
+         #tavola-calda,  #tavola-calda h4 {
+            color: yellow;
+            font-weight: 700;
+         }
+         #kebab {
+            color: #fff;
+         background-image: url(/Images/kebab1.jpg);
+         box-shadow: 10px 10px 50px black;
+         }
+         #kebab, #kebab h4 {
+            color: yellow;
+            font-weight: 700;
+         }
+         #focaccia {
+            color: #fff;
+            background-color: #00bcd4;
+         }
+
+         #calzoni, #fritti,  #focaccia  {
+            color: #fff;
+            background-image: url(/Images/marble1.jpg);
+            box-shadow: 10px 10px 50px black;
+         }
+         #bevande {
+            color: #fff;
+            background-image: url(/Images/marble2.jpg);
+            box-shadow: 10px 10px 50px blue;
+         }
+         .offerte li, .offerte p{
+            font-size: 14px;
+            color: papayawhip;
+            font-weight: 900;
+            list-style: none;
+         }
+         .offerte{
+            width: 60%;
+            height: fit-content;
+            background-image: url(/Images/marble1.jpg);
+            align-content: center;
+            text-align: center;
+            margin: auto;
+            box-shadow: 10px 10px 50px black;
+            border-radius: 3rem;
+         }
+         .offerte img{  
+            max-width: 40%;
+            padding: 10px;
+            float: left;
+            gap: 10px;
+            display:flow-root;
+            overflow: auto;
+         }
+         @media screen and (max-width: 810px) {
+
+            #pizze-rosse,
+            #pizze-bianche,
+            #kebab,
+            #focaccia,
+            #calzoni,
+            #fritti,
+            #bevande {
+               margin-left: 150px;
+            }
+         }

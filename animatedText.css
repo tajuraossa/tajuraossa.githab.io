@@ -1,0 +1,70 @@
+
+ .jumbotron #specile, .jumbotron1 #specile, .jumbotron2 #specile  {
+   display: flex;
+   /*background: #000;*/
+   min-height: 30vh;
+   min-width: 100vw;
+   position: absolute;
+   align-items: left;
+   justify-content: center;
+   padding-top: 5px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.jumbotron1{
+   background: papayawhip;
+}
+.jumbotron  #specile .content {
+   /*position: relative;*/
+   position: absolute center;
+}
+
+#specile h2 {
+   color: whitesmoke;
+   font-family: raleway;
+   font-size: 1.5rem;
+}
+
+#specile .content h2 {
+   color: #fff;
+   font-size: 4em;
+   position: absolute;
+   transform: translate(-50%, -50%);
+}
+
+#specile .content h2:nth-child(1) {
+   color: transparent;
+   -webkit-text-stroke: 1px red;
+}
+
+#specile .content h2:nth-child(2) {
+   color: purple;
+   animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate {
+
+   0%,
+   100% {
+      clip-path: polygon(0% 15%,
+            16% 34%,
+            33% 40%,
+            54% 50%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%);
+   }
+
+   50% {
+      clip-path: polygon(0% 70%,
+            15% 65%,
+            34% 76%,
+            51% 72%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%);
+   }
+}
