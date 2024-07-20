@@ -9,12 +9,12 @@
     
  }
 header{
-   background-image: url(/Images/marble1.jpg);
+   background-image: url(img/marble1.jpg);
    
    width: 100%;
 }
 #crausel{
-   background-image: url(/Images/marble1.jpg);
+   background-image: url(img/marble1.jpg);
    margin-top: 2rem;
    padding-top: 2rem;
 }
@@ -41,7 +41,7 @@ header{
    border: 2px solid black;
    border-radius: 50%;
    box-shadow: 5px 5px 10px black;
-   background-image: url(/Images/marble3.png);
+   background-image: url(img/marble3.png);
    text-align: center;
    position: fixed;
    top:1rem;
@@ -59,7 +59,7 @@ header{
    font-family: raleway;
    font-size: 1.5rem;
    background-color: #f4511e;
-   background-image: url(/Images/marble1.jpg);
+   background-image: url(img/marble1.jpg);
     padding: 20px 10px;
     border: 0;
  }
@@ -192,7 +192,7 @@ label{
 
  .navbar {
     margin-bottom: 0;
-    background-image: url(/Images/marble1.jpg);
+    background-image: url(img/marble1.jpg);
     z-index: 9999;
     border: 0;
     font-size: 14px !important;
